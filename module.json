@@ -1,0 +1,153 @@
+{
+  "id": "old-gods-of-appalachia-addons",
+  "title": "Old Gods of Appalachia Addons",
+  "url": "https://github.com/robrowald/ogoa",
+  "manifest": "",
+  "download": "";
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A set of compendiums for use with the Cypher System",
+  "authors": [
+    {
+      "name": "Rob Rowald",
+      "email": "rob.rowald@gmail.com",
+      "discord": "rob_from_the_internet",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ogoa-descriptors",
+      "label": "OGoA Descriptors",
+      "path": "packs/ogoa-descriptors",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-actors",
+      "label": "OGoA Actors",
+      "path": "packs/ogoa-actors",
+      "type": "Actor",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-armor",
+      "label": "OGoA Armor",
+      "path": "packs/ogoa-armor",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-cyphers",
+      "label": "OGoA Cyphers",
+      "path": "packs/ogoa-cyphers",
+      "type": "Item",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-ogoa-foci",
+      "label": "OGoA Foci",
+      "path": "packs/pack-ogoa-foci",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-goods-and-services",
+      "label": "OGoA Goods and Services",
+      "path": "packs/ogoa-goods-and-services",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-items",
+      "label": "OGoA Items",
+      "path": "packs/ogoa-items",
+      "type": "Item",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-types",
+      "label": "OGoA Types",
+      "path": "packs/ogoa-types",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-weapons",
+      "label": "OGoA Weapons",
+      "path": "packs/ogoa-weapons",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "-introduction",
+      "label": "! Introduction",
+      "path": "packs/-introduction",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-player-resources",
+      "label": "OGoA Player resources",
+      "path": "packs/ogoa-player-resources",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyphersystem"
+    }
+  ]
+}
