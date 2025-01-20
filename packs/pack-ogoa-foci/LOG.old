@@ -1,8 +1,15 @@
-2025/01/19-22:02:51.561195 1519da049b38 Recovering log #16
-2025/01/19-22:02:51.574163 1519da049b38 Delete type=3 #14
-2025/01/19-22:02:51.575644 1519da049b38 Delete type=0 #16
-2025/01/19-22:07:11.896685 1514d7baeb38 Level-0 table #21: started
-2025/01/19-22:07:11.897885 1514d7baeb38 Level-0 table #21: 0 bytes OK
-2025/01/19-22:07:11.901256 1514d7baeb38 Delete type=0 #19
-2025/01/19-22:07:11.903567 1514d7baeb38 Manual compaction at level-0 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
-2025/01/19-22:07:11.904447 1514d7baeb38 Manual compaction at level-1 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
+2025/01/19-22:24:28.920189 1519da049b38 Recovering log #20
+2025/01/19-22:24:28.930087 1519da049b38 Delete type=3 #18
+2025/01/19-22:24:28.931006 1519da049b38 Delete type=0 #20
+2025/01/19-23:47:18.784389 1514d7baeb38 Level-0 table #25: started
+2025/01/19-23:47:18.789946 1514d7baeb38 Level-0 table #25: 1796 bytes OK
+2025/01/19-23:47:18.793308 1514d7baeb38 Delete type=0 #23
+2025/01/19-23:47:18.795449 1514d7baeb38 Manual compaction at level-0 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
+2025/01/19-23:47:18.820783 1514d7baeb38 Manual compaction at level-1 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at '!journal.pages!Vqm8iUSWYNlDg4Kl.LkXwFZftO4l8pzfL' @ 158 : 1
+2025/01/19-23:47:18.820907 1514d7baeb38 Compacting 1@1 + 1@2 files
+2025/01/19-23:47:18.841628 1514d7baeb38 Generated table #26@1: 51 keys, 96978 bytes
+2025/01/19-23:47:18.841784 1514d7baeb38 Compacted 1@1 + 1@2 files => 96978 bytes
+2025/01/19-23:47:18.843857 1514d7baeb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/19-23:47:18.845296 1514d7baeb38 Delete type=2 #9
+2025/01/19-23:47:18.846809 1514d7baeb38 Delete type=2 #25
+2025/01/19-23:47:18.865408 1514d7baeb38 Manual compaction at level-1 from '!journal.pages!Vqm8iUSWYNlDg4Kl.LkXwFZftO4l8pzfL' @ 158 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)

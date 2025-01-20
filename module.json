@@ -1,10 +1,9 @@
 {
-  "name": "old-gods-of-appalachia-addons",
   "title": "Old Gods of Appalachia Addons",
   "url": "https://github.com/robrowald/ogoa",
-  "manifest": "https://github.com/robrowald/ogoa/releases/download/1.0.4/module.json",
-  "download": "https://github.com/robrowald/ogoa/releases/download/1.0.4/ogoa.zip",
-  "version": "1.0.4",
+  "manifest": "https://github.com/robrowald/ogoa/releases/download/latest/module.json",
+  "download": "https://github.com/robrowald/ogoa/releases/download/latest/ogoa.zip",
+  "version": "1.0.5",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -143,11 +142,23 @@
       "label": "OGoA Player resources",
       "path": "packs/ogoa-player-resources",
       "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ogoa-world",
+      "label": "OGoA World",
+      "path": "packs/ogoa-world",
+      "type": "Adventure",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "system": "cyphersystem"
     }
-  ]
+  ],
+  "id": "old-gods-of-appalachia-addons"
 }

@@ -1,8 +1,15 @@
-2025/01/19-22:02:51.431924 1519d9c43b38 Recovering log #16
-2025/01/19-22:02:51.443595 1519d9c43b38 Delete type=3 #14
-2025/01/19-22:02:51.444971 1519d9c43b38 Delete type=0 #16
-2025/01/19-22:07:11.878058 1514d7baeb38 Level-0 table #21: started
-2025/01/19-22:07:11.879493 1514d7baeb38 Level-0 table #21: 0 bytes OK
-2025/01/19-22:07:11.882971 1514d7baeb38 Delete type=0 #19
-2025/01/19-22:07:11.902877 1514d7baeb38 Manual compaction at level-0 from '!actors!2hqB6RcVyjqAT1qr' @ 72057594037927935 : 1 .. '!folders!Mr92U2IY12GSb1UT' @ 0 : 0; will stop at (end)
-2025/01/19-22:07:11.903761 1514d7baeb38 Manual compaction at level-1 from '!actors!2hqB6RcVyjqAT1qr' @ 72057594037927935 : 1 .. '!folders!Mr92U2IY12GSb1UT' @ 0 : 0; will stop at (end)
+2025/01/19-22:24:28.816887 1519d9c43b38 Recovering log #20
+2025/01/19-22:24:28.831364 1519d9c43b38 Delete type=3 #18
+2025/01/19-22:24:28.832482 1519d9c43b38 Delete type=0 #20
+2025/01/19-23:47:18.739579 1514d7baeb38 Level-0 table #25: started
+2025/01/19-23:47:18.746329 1514d7baeb38 Level-0 table #25: 6043 bytes OK
+2025/01/19-23:47:18.749457 1514d7baeb38 Delete type=0 #23
+2025/01/19-23:47:18.751421 1514d7baeb38 Manual compaction at level-0 from '!actors!2hqB6RcVyjqAT1qr' @ 72057594037927935 : 1 .. '!folders!Mr92U2IY12GSb1UT' @ 0 : 0; will stop at (end)
+2025/01/19-23:47:18.752100 1514d7baeb38 Manual compaction at level-1 from '!actors!2hqB6RcVyjqAT1qr' @ 72057594037927935 : 1 .. '!folders!Mr92U2IY12GSb1UT' @ 0 : 0; will stop at '!actors!i1jYa6L1iH8Wtp49' @ 10 : 1
+2025/01/19-23:47:18.752266 1514d7baeb38 Compacting 1@1 + 1@2 files
+2025/01/19-23:47:18.759249 1514d7baeb38 Generated table #26@1: 5 keys, 4447 bytes
+2025/01/19-23:47:18.759426 1514d7baeb38 Compacted 1@1 + 1@2 files => 4447 bytes
+2025/01/19-23:47:18.761350 1514d7baeb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/19-23:47:18.762796 1514d7baeb38 Delete type=2 #5
+2025/01/19-23:47:18.764334 1514d7baeb38 Delete type=2 #25
+2025/01/19-23:47:18.794872 1514d7baeb38 Manual compaction at level-1 from '!actors!i1jYa6L1iH8Wtp49' @ 10 : 1 .. '!folders!Mr92U2IY12GSb1UT' @ 0 : 0; will stop at (end)
