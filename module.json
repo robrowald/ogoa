@@ -2,8 +2,8 @@
   "id": "old-gods-of-appalachia-addons",
   "title": "Old Gods of Appalachia Addons",
   "url": "https://github.com/robrowald/ogoa",
-  "manifest": "",
-  "download": "";
+  "manifest": "https://github.com/robrowald/ogoa/releases/download/1.0.1/module.json",
+  "download": "https://github.com/robrowald/ogoa/releases/download/1.0.1/ogoa.zip";
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
