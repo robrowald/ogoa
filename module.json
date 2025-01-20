@@ -15,6 +15,23 @@
         "type": "system",
         "compatibility": {}
       }
+    ],
+    "recommends": [
+      {
+        "id": "cyphersystem-community-module",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "cyphersystem-activeeffects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "cyphersystem-compendium",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "description": "A set of compendiums for use with the Cypher System",
@@ -153,11 +170,11 @@
       "label": "OGoA World",
       "path": "packs/ogoa-world",
       "type": "Adventure",
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "cyphersystem"
+      }
     }
   ],
   "id": "old-gods-of-appalachia-addons"

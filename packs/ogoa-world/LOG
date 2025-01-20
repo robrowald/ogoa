@@ -1,5 +1,4 @@
-2025/01/20-06:31:24.932 7bf8 Delete type=3 #1
-2025/01/20-07:25:10.336 7d84 Level-0 table #5: started
-2025/01/20-07:25:10.339 7d84 Level-0 table #5: 31935 bytes OK
-2025/01/20-07:25:10.342 7d84 Delete type=0 #3
-2025/01/20-07:25:10.351 7d84 Manual compaction at level-0 from '!adventures!3WKXOzIromZws5Lo' @ 72057594037927935 : 1 .. '!adventures!3WKXOzIromZws5Lo' @ 0 : 0; will stop at (end)
+2025/01/20-07:48:21.017 7bf8 Recovering log #4
+2025/01/20-07:48:21.021 7bf8 Delete type=0 #3
+2025/01/20-07:48:21.021 7bf8 Delete type=0 #4
+2025/01/20-07:48:21.021 7bf8 Delete type=3 #2

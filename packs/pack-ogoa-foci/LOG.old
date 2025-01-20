@@ -1,15 +1,8 @@
-2025/01/19-22:24:28.920189 1519da049b38 Recovering log #20
-2025/01/19-22:24:28.930087 1519da049b38 Delete type=3 #18
-2025/01/19-22:24:28.931006 1519da049b38 Delete type=0 #20
-2025/01/19-23:47:18.784389 1514d7baeb38 Level-0 table #25: started
-2025/01/19-23:47:18.789946 1514d7baeb38 Level-0 table #25: 1796 bytes OK
-2025/01/19-23:47:18.793308 1514d7baeb38 Delete type=0 #23
-2025/01/19-23:47:18.795449 1514d7baeb38 Manual compaction at level-0 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
-2025/01/19-23:47:18.820783 1514d7baeb38 Manual compaction at level-1 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at '!journal.pages!Vqm8iUSWYNlDg4Kl.LkXwFZftO4l8pzfL' @ 158 : 1
-2025/01/19-23:47:18.820907 1514d7baeb38 Compacting 1@1 + 1@2 files
-2025/01/19-23:47:18.841628 1514d7baeb38 Generated table #26@1: 51 keys, 96978 bytes
-2025/01/19-23:47:18.841784 1514d7baeb38 Compacted 1@1 + 1@2 files => 96978 bytes
-2025/01/19-23:47:18.843857 1514d7baeb38 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/19-23:47:18.845296 1514d7baeb38 Delete type=2 #9
-2025/01/19-23:47:18.846809 1514d7baeb38 Delete type=2 #25
-2025/01/19-23:47:18.865408 1514d7baeb38 Manual compaction at level-1 from '!journal.pages!Vqm8iUSWYNlDg4Kl.LkXwFZftO4l8pzfL' @ 158 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
+2025/01/20-06:31:24.806 7bf8 Recovering log #24
+2025/01/20-06:31:24.811 7bf8 Delete type=0 #24
+2025/01/20-06:31:24.811 7bf8 Delete type=3 #22
+2025/01/20-07:25:10.316 7d84 Level-0 table #30: started
+2025/01/20-07:25:10.316 7d84 Level-0 table #30: 0 bytes OK
+2025/01/20-07:25:10.318 7d84 Delete type=0 #28
+2025/01/20-07:25:10.323 7d84 Manual compaction at level-0 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
+2025/01/20-07:25:10.325 7d84 Manual compaction at level-1 from '!journal!3IqLGkULxz2y2Ow5' @ 72057594037927935 : 1 .. '!journal.pages!z3bLQj8LKDHdIfzW.d44N0IzTFjeVaUjo' @ 0 : 0; will stop at (end)
