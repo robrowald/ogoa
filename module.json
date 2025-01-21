@@ -3,9 +3,9 @@
   "url": "https://github.com/robrowald/ogoa",
   "manifest": "https://github.com/robrowald/ogoa/releases/download/latest/module.json",
   "download": "https://github.com/robrowald/ogoa/releases/download/latest/ogoa.zip",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "11",
     "verified": "12"
   },
   "relationships": {
@@ -34,7 +34,7 @@
       }
     ]
   },
-  "description": "A set of compendiums for use with the Cypher System",
+  "description": "A set of compendiums, actors, music, and scenes for use with the Cypher System",
   "authors": [
     {
       "name": "Rob Rowald",
@@ -175,6 +175,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "ogoa-tables",
+      "label": "OGoA Tables",
+      "path": "packs/ogoa-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyphersystem"
     }
   ],
   "id": "old-gods-of-appalachia-addons"
