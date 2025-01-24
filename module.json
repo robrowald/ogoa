@@ -3,7 +3,7 @@
   "url": "https://github.com/robrowald/ogoa",
   "manifest": "https://github.com/robrowald/ogoa/releases/download/latest/module.json",
   "download": "https://github.com/robrowald/ogoa/releases/download/latest/ogoa.zip",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -34,7 +34,7 @@
       }
     ]
   },
-  "description": "A set of compendiums, actors, music, and scenes for use with the Cypher System",
+  "description": "A set of compendiums, actors, music, and scenes for use with the Cypher System\n\nMusic courtesy of Tabletop Audio, Old Gods of Appalachia Digital kit (Monte Cook Games/Kickstarter)\n\nAll cypher, artifact, and entity descriptions rights to the repective owners. All tokens copyright Rob Rowald. Cypher and artifact imagery is AI generated and no copyright is claimed.",
   "authors": [
     {
       "name": "Rob Rowald",
@@ -181,11 +181,22 @@
       "label": "OGoA Tables",
       "path": "packs/ogoa-tables",
       "type": "RollTable",
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "cyphersystem"
+      }
+    },
+    {
+      "name": "ogoa-gm-intrusions",
+      "label": "OGoA GM Resources",
+      "path": "packs/ogoa-gm-intrusions",
+      "type": "JournalEntry",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "id": "old-gods-of-appalachia-addons"
